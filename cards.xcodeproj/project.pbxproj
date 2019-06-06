@@ -13,6 +13,7 @@
 		95E1ADC322A936180051DC0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95E1ADC222A936180051DC0B /* Assets.xcassets */; };
 		95E1ADC622A936180051DC0B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95E1ADC522A936180051DC0B /* Preview Assets.xcassets */; };
 		95E1ADC922A936180051DC0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95E1ADC722A936180051DC0B /* LaunchScreen.storyboard */; };
+		95E1ADD122A941BD0051DC0B /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E1ADD022A941BD0051DC0B /* Color+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		95E1ADC522A936180051DC0B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		95E1ADC822A936180051DC0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95E1ADCA22A936180051DC0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95E1ADD022A941BD0051DC0B /* Color+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				95E1ADBC22A936170051DC0B /* AppDelegate.swift */,
 				95E1ADBE22A936170051DC0B /* SceneDelegate.swift */,
 				95E1ADC022A936170051DC0B /* ContentView.swift */,
+				95E1ADD022A941BD0051DC0B /* Color+Extensions.swift */,
 				95E1ADC222A936180051DC0B /* Assets.xcassets */,
 				95E1ADC722A936180051DC0B /* LaunchScreen.storyboard */,
 				95E1ADCA22A936180051DC0B /* Info.plist */,
@@ -149,6 +152,7 @@
 				95E1ADBD22A936170051DC0B /* AppDelegate.swift in Sources */,
 				95E1ADBF22A936170051DC0B /* SceneDelegate.swift in Sources */,
 				95E1ADC122A936170051DC0B /* ContentView.swift in Sources */,
+				95E1ADD122A941BD0051DC0B /* Color+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
