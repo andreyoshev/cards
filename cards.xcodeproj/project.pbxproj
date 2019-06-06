@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		958B590B22A993AA005F0357 /* cards.gif in Resources */ = {isa = PBXBuildFile; fileRef = 958B590A22A993AA005F0357 /* cards.gif */; };
 		95E1ADBD22A936170051DC0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E1ADBC22A936170051DC0B /* AppDelegate.swift */; };
 		95E1ADBF22A936170051DC0B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E1ADBE22A936170051DC0B /* SceneDelegate.swift */; };
 		95E1ADC122A936170051DC0B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E1ADC022A936170051DC0B /* ContentView.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		958B590A22A993AA005F0357 /* cards.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = cards.gif; sourceTree = "<group>"; };
 		95E1ADB922A936170051DC0B /* cards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95E1ADBC22A936170051DC0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95E1ADBE22A936170051DC0B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,10 +41,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		958B590922A993AA005F0357 /* demo */ = {
+			isa = PBXGroup;
+			children = (
+				958B590A22A993AA005F0357 /* cards.gif */,
+			);
+			path = demo;
+			sourceTree = "<group>";
+		};
 		95E1ADB022A936170051DC0B = {
 			isa = PBXGroup;
 			children = (
 				95E1ADBB22A936170051DC0B /* cards */,
+				958B590922A993AA005F0357 /* demo */,
 				95E1ADBA22A936170051DC0B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -138,6 +149,7 @@
 			files = (
 				95E1ADC922A936180051DC0B /* LaunchScreen.storyboard in Resources */,
 				95E1ADC622A936180051DC0B /* Preview Assets.xcassets in Resources */,
+				958B590B22A993AA005F0357 /* cards.gif in Resources */,
 				95E1ADC322A936180051DC0B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
