@@ -1,6 +1,6 @@
 # Cards
 
-SwiftUI card style implementation.
+SwiftUICards is an example card list application using [SwiftUI](https://developer.apple.com/xcode/swiftui/) which is first introduced in WWDC19 keynote.
 
 Here is a demo:
 
